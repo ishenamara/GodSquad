@@ -1,23 +1,99 @@
 fileFormatVersion: 2
-guid: cca6fef445e554a499ed584ea1b8167c
-timeCreated: 1509100705
+guid: 04f03747799abe343b04d50179be7bd9
+timeCreated: 1510672174
 licenseType: Pro
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: pCube21
+    100004: pCube23
+    100006: pCube24
+    100008: pCube25
+    100010: pCube26
+    100012: pCube27
+    100014: pCube28
+    100016: pCube29
+    100018: pCube30
+    100020: pCube31
+    100022: pCube32
+    100024: pCube33
+    100026: pCube34
+    100028: pCube43
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: pPlane1
-    6400000: //RootNode
+    400002: pCube21
+    400004: pCube23
+    400006: pCube24
+    400008: pCube25
+    400010: pCube26
+    400012: pCube27
+    400014: pCube28
+    400016: pCube29
+    400018: pCube30
+    400020: pCube31
+    400022: pCube32
+    400024: pCube33
+    400026: pCube34
+    400028: pCube43
+    2300000: pCube21
+    2300002: pCube23
+    2300004: pCube24
+    2300006: pCube25
+    2300008: pCube26
+    2300010: pCube27
+    2300012: pCube28
+    2300014: pCube29
+    2300016: pCube30
+    2300018: pCube31
+    2300020: pCube32
+    2300022: pCube33
+    2300024: pCube34
+    2300026: pCube43
+    3300000: pCube21
+    3300002: pCube23
+    3300004: pCube24
+    3300006: pCube25
+    3300008: pCube26
+    3300010: pCube27
+    3300012: pCube28
+    3300014: pCube29
+    3300016: pCube30
+    3300018: pCube31
+    3300020: pCube32
+    3300022: pCube33
+    3300024: pCube34
+    3300026: pCube43
+    4300000: pCube21
+    4300002: pCube23
+    4300004: pCube24
+    4300006: pCube25
+    4300008: pCube26
+    4300010: pCube27
+    4300012: pCube28
+    4300014: pCube29
+    4300016: pCube30
+    4300018: pCube31
+    4300020: pCube32
+    4300022: pCube33
+    4300024: pCube34
+    4300026: pCube43
     9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert2
-    second: {fileID: 2100000, guid: 89c1bca60de240541b059d956e4064d7, type: 2}
+    second: {fileID: 2100000, guid: 8d1df3f0704738c42bf2ae4fcfac0196, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 41c38e738710da546a745bfb799acb89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: a5e4f091b7aab334bbb786a3af0fcf5a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -49,7 +125,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
