@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ProjectileShooter : MonoBehaviour {
-
+	public float speed = 200f;
 	public GameObject prefab;
+
 	// Use this for initialization
 	void Start () {
 		//prefab = Resources.Load ("projectile") as GameObject;
@@ -13,11 +14,14 @@ public class ProjectileShooter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetMouseButtonDown(0)) {
-			GameObject projectile = Instantiate (prefab) as GameObject;
-			projectile.transform.position = transform.position + Camera.main.transform.forward * 2;
-			Rigidbody rb = projectile.GetComponent<Rigidbody>();
-			rb.velocity = Camera.main.transform.forward * 200;
-		}
+		
+	}
+
+	public void Shoot(Vector3 direction)
+	{
+		GameObject projectile = Instantiate (prefab) as GameObject;
+		projectile.transform.position = transform.position + direction * 2;
+		Rigidbody rb = projectile.GetComponent<Rigidbody>();
+		rb.velocity = direction * speed;
 	}
 }
